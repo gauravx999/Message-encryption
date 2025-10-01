@@ -22,6 +22,9 @@ This project demonstrates **secure communication** between a client and a server
 
 ---
 
+<img width="904" height="383" alt="image" src="https://github.com/user-attachments/assets/9c693f87-ce85-4f70-92d1-c1f290c0379d" />
+
+
 ## 📂 Project Structure
 
 ```
@@ -32,11 +35,7 @@ Network-Secure-Chat/
 │
 ├── requirements.txt      # Python dependencies
 ├── README.md             # Documentation
-│
-└── assets/               # Project images (logo, screenshots)
-    ├── logo.png
-    ├── screenshot_client.png
-    ├── screenshot_server.png
+            
 ```
 
 ---
@@ -102,5 +101,4 @@ A **popup window** will appear asking:
 
 ---
 
-👉 Do you also want me to **generate a `requirements.txt` file** for you automatically, so users can install dependencies in one command?
 
