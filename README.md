@@ -1,13 +1,4 @@
-# Message-encryption
-A simple encrypted chat application using RSA + AES + SHA-256, built with Python. This project demonstrates secure communication between a client and a server with end-to-end encryption.
 
-
-Perfect 👍
-Let’s build a **proper, professional README.md** for your GitHub repo, with everything clearly explained: structure, badges, setup guide, screenshots, and working details.
-
-Here’s the polished version you can directly use in your repo:
-
----
 
 # 🔐 Network Secure Chat (Python + Tkinter)
 
@@ -91,33 +82,15 @@ A **popup window** will appear asking:
 
 ## 🖼️ Screenshots
 
-### 🔹 Client Window
+### 🔹 Server Window  &  ### 🔹 Client Window 
 
-![Client Screenshot](assets/screenshot_client.png)
+<img width="1866" height="922" alt="Screenshot 2025-10-01 222220" src="https://github.com/user-attachments/assets/d09faaeb-9dca-42de-9814-04cedc029cea" />
 
-### 🔹 Server Window
 
-![Server Screenshot](assets/screenshot_server.png)
 
----
-
-## 🔐 How It Works
-
-1. **RSA Key Exchange**
-
-   * Server generates an RSA key pair
-   * Client encrypts an AES session key with server’s RSA public key
-
-2. **AES-256 for Messages**
-
-   * Once the AES key is shared, all chat messages are encrypted with AES in **CBC mode**
-
-3. **SHA-256 Integrity Check**
-
-   * Each message is hashed with SHA-256
-   * The receiver verifies the hash before accepting the message
 
 ---
+
 
 ## 🛠️ Requirements
 
@@ -126,11 +99,6 @@ A **popup window** will appear asking:
 * **PyCryptodome**
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-Feel free to fork, use, and improve! 🚀
 
 ---
 
